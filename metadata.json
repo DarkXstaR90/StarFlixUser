@@ -1,0 +1,6 @@
+{
+  "name": "AniFlix - Premium Anime Streaming Platform",
+  "description": "AniFlix is a premium dark anime streaming platform with real-time discovery, video player, watch history, watchlist, airing schedule, comments, ratings, and a full-featured admin CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

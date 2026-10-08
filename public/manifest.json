@@ -1,0 +1,21 @@
+{
+  "short_name": "AniFlix",
+  "name": "AniFlix - Premium Anime Streaming",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#05080D",
+  "theme_color": "#05080D",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - AniFlix</title>
+  <style>
+    body {
+      background-color: #05080D;
+      color: #F5F7FA;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 24px;
+    }
+    .box {
+      max-width: 420px;
+      background: #08111A;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 32px;
+    }
+    h1 { font-size: 24px; margin-bottom: 12px; color: #00E5A8; }
+    p { color: #94A3B8; font-size: 14px; line-height: 1.6; margin-bottom: 24px; }
+    button {
+      background: #00E5A8;
+      color: #05080D;
+      border: none;
+      font-weight: 600;
+      padding: 10px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>You are currently offline</h1>
+    <p>Please check your internet connection to stream anime on AniFlix.</p>
+    <button onclick="window.location.reload()">Retry Connection</button>
+  </div>
+</body>
+</html>

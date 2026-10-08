@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="aniflix-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5A8" />
+      <stop offset="100%" stop-color="#14B8FF" />
+    </linearGradient>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1722" />
+      <stop offset="100%" stop-color="#05080D" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg-grad)" stroke="#1F2E3D" stroke-width="8" />
+  <path d="M140 380 L230 130 L282 130 L372 380 L310 380 L288 316 L224 316 L202 380 Z M240 268 L272 268 L256 200 Z" fill="url(#aniflix-grad)" />
+  <polygon points="340,240 400,275 340,310" fill="#00E5A8" />
+</svg>
